@@ -5,7 +5,7 @@ import logging
 def get_trace_and_log(error):
     """() -> str
 
-    Returns a distinct traceback with the offending line and logs the error with the time and date.
+    Returns a distinct traceback with the offending line, then logs the error with the time and date within a errors.log file.
     """
     logf = open("errors.log", "a")
     trace = traceback.extract_tb(sys.exc_info()[-1], limit=1)[-1][1]
