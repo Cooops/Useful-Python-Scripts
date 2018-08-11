@@ -29,7 +29,6 @@ class DatabaseConnection:
                 GROUP BY completed_product_nick""")
             except Exception as e:
                 get_trace_and_log(e)
-                pass
         else:
             # Add try/catch loop so we don't just hit a full stop when we error out?
             try:
@@ -41,8 +40,6 @@ class DatabaseConnection:
                 GROUP BY completed_product_nick""")
             except Exception as e:
                 get_trace_and_log(e)
-                pass
-
     def insert_index(self, value):
         if value is 'Alpha':
             # Add try/catch loop so we don't just hit a full stop when we error out?
