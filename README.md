@@ -1,3 +1,3 @@
-# Useful-Python-Scripts
+# Useful-Scripts
 
-A slow upload and future landing zone for any useful Python scripts I want to back-up/share.
+A slow upload and future landing zone for any useful scripts I want to back-up/share.
