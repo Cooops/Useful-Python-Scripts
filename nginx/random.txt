@@ -1,0 +1,4 @@
+sudo systemctl restart nginx
+sudo systemctl status nginx
+sudo systemctl status abupower
+sudo tail -30 /var/log/nginx/error.log
